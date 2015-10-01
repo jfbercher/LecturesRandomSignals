@@ -1,0 +1,6 @@
+*.tex
+*.log
+*.toc
+*tmp*
+conversion/
+__pycache__/
