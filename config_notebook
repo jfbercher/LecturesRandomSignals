@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Install jupyter extensions
+jupyter nbextension install https://rawgit.com/jfbercher/latex_envs/master/latex_envs.zip  --user
+jupyter nbextension enable latex_envs/latex_envs  
+jupyter nbextension install https://rawgit.com/jfbercher/small_nbextensions/master/highlighter.zip  --user
+jupyter nbextension enable usability/highlighter/highlighter 
+jupyter nbextension install https://rawgit.com/jfbercher/small_nbextensions/master/interactive_sols.zip  
+jupyter nbextension enable usability/interactive_sols/interactive_sols 
+#chmod executable files
+
+chmod 755 local_repo_update
+ 
